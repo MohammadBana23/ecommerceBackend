@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb66d41-3bc2-4cbc-8f55-453ae0ba5630" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/untitled2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simpleecommerce" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Simpleecommerce/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Simpleecommerce/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Simpleecommerce/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerceApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/dataBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/categoryController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simpleecommerce" beforeDir="false" afterPath="$PROJECT_DIR$/Simpleecommerce" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simpleecommerce/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Simpleecommerce/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simpleecommerce/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Simpleecommerce/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Simpleecommerce/app/build.gradle" afterDir="false" />
@@ -47,6 +38,8 @@
       <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/test/java/com/example/simpleecommerce/ExampleUnitTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Simpleecommerce/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Simpleecommerce/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerceApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.21" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,17 +80,20 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\mohammad Dropbox\mohamad bana\My PC (DESKTOP-271R7TF)\Desktop\ecommerce project" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\mohammad Dropbox\mohamad bana\My PC (DESKTOP-271R7TF)\Desktop\ecommerce project\untitled2\models" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="ecommerceApp.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ecommerceApp.js" working-dir="$PROJECT_DIR$">
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.ecommerceApp.js" />
+        <item itemvalue="Node.js.server.js" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +107,9 @@
       <updated>1611128637732</updated>
       <workItem from="1611128639726" duration="6969000" />
       <workItem from="1611166127638" duration="1211000" />
-      <workItem from="1611384591469" duration="4412000" />
+      <workItem from="1611384591469" duration="10535000" />
+      <workItem from="1611433441061" duration="41000" />
+      <workItem from="1611433554377" duration="139000" />
     </task>
     <servers />
   </component>
@@ -128,5 +126,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
