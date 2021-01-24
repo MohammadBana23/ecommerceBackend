@@ -1,12 +1,11 @@
 require("./config/dataBase")
 const express = require("express")
-const {categories} = require("./models/category")
-const {categoryRouter} = require("./router/category")
+const {userRouter} = require("./router/user")
 const app = express()
 app.use(express.json())
 
 
-app.use("/api/v1/",categoryRouter)
+app.use("/api/v1/",userRouter)
 
 
 app.listen(9797,"192.168.1.50",(err)=>{

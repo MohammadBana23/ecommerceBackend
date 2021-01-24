@@ -2,44 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb66d41-3bc2-4cbc-8f55-453ae0ba5630" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Simpleecommerce/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simpleecommerce/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simpleecommerce/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/dataBase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/categoryController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce" beforeDir="false" afterPath="$PROJECT_DIR$/Simpleecommerce" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Simpleecommerce/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Simpleecommerce/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Simpleecommerce/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/androidTest/java/com/example/simpleecommerce/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/java/com/example/simpleecommerce/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/app/src/test/java/com/example/simpleecommerce/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simpleecommerce/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerceApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/categoryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/categoryController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +78,7 @@
       <workItem from="1611384591469" duration="10535000" />
       <workItem from="1611433441061" duration="41000" />
       <workItem from="1611433554377" duration="139000" />
+      <workItem from="1611463980702" duration="5940000" />
     </task>
     <servers />
   </component>
