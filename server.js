@@ -1,14 +1,15 @@
 require("./config/dataBase")
 const express = require("express")
-const {userRouter} = require("./router/user")
+const {userRouter} = require("./router/userSignUp")
+const {userLoginRouter} = require("./router/userLogin")
 const app = express()
 app.use(express.json())
 
 
-app.use("/api/v1/",userRouter)
+app.use("/api/v1/user",userLoginRouter)
 
 
-app.listen(9797,"192.168.1.50",(err)=>{
+app.listen(9797,"192.168.1.51",(err)=>{
     if (!err)
         console.log("run on port 9797")
     else

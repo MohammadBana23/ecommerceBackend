@@ -1,14 +1,11 @@
 const {users} = require("../models/user")
-const getUser = async (req,res) => {
-
-    if (req.query["id"]){
-        const {id} = req.query
-        const result = await users.findOne({_id:id})
-        res.status(200).send(result)
-    }else {
-        const result = await users.find({})
-        res.status(200).send(result)
-    }
+const findUser = async (req,res) => {
+        const {username,password} = req.body
+        await users.findOne({username:username,password:password}).then(result=>{
+            res.status(200).send(result)
+        }).cache(err=>{
+            res.status(500).send({message:err.message})
+        })
 }
 
 const createUser = async (req,res) => {
@@ -25,6 +22,6 @@ const createUser = async (req,res) => {
 }
 
 module.exports = {
-    getUser,
+    findUser,
     createUser
 }
