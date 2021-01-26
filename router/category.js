@@ -1,8 +1,8 @@
 const express = require("express")
-const {getCategory,createCategory} = require("../controller/categoryController")
+const {getAllCategory,createCategory} = require("../controller/categoryController")
 const router = express.Router()
 router.route("/category")
-    .get(getCategory)
+    .get(getAllCategory)
     .post(createCategory)
 
 module.exports = {

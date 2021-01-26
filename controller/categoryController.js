@@ -1,15 +1,16 @@
 const {categories} = require("../models/category")
 
-const getCategory = async (req,res)=>{
+const getAllCategory = async (req, res)=>{
 
-    if (req.query["id"]){
-        const {id} = req.query
-        const result = await categories.findOne({_id:id})
-        res.status(200).send(result)
-    }else {
-        const result = await categories.find({})
-        res.status(200).send(result)
-    }
+    await categories.find().then(result=>{
+        if (result !== null){
+            res.status(200).send(result)
+        }else{
+            res.status(401).send()
+        }
+    }).catch(err=>{
+        res.status(500).send({message:err.message})
+    })
 }
 
 
@@ -28,6 +29,6 @@ const createCategory = async (req,res)=>{
 }
 
 module.exports = {
-    getCategory,
+    getAllCategory,
     createCategory
 }
