@@ -2,8 +2,12 @@ const {users} = require("../models/user")
 const findUser = async (req,res) => {
         const {username,password} = req.body
         await users.findOne({username:username,password:password}).then(result=>{
-            res.status(200).send(result)
-        }).cache(err=>{
+            if (result !== null){
+                res.status(200).send(result)
+            }else{
+                res.status(401).send()
+            }
+        }).catch(err=>{
             res.status(500).send({message:err.message})
         })
 }

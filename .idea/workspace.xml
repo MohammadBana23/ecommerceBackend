@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb66d41-3bc2-4cbc-8f55-453ae0ba5630" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/router/userLogin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/userSignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/userSignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/userSignUp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <workItem from="1611433441061" duration="41000" />
       <workItem from="1611433554377" duration="139000" />
       <workItem from="1611463980702" duration="5945000" />
-      <workItem from="1611523290296" duration="6807000" />
+      <workItem from="1611523290296" duration="11562000" />
     </task>
     <servers />
   </component>

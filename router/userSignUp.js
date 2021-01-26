@@ -5,5 +5,5 @@ router.route("/signup")
     .post(createUser)
 
 module.exports = {
-    userRouter : router
+    userSignUpRouter : router
 }
