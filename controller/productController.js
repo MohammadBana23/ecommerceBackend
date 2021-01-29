@@ -1,18 +1,24 @@
 const {products} = require("../models/product")
-const getAllDigitalProducts = async (req, res)=>{
+const {ObjectID} = require("mongodb")
 
-    await products.find().then(result=>{
+
+const getProductsByCategoryId = async (req, res)=>{
+
+    const categoryId = req.params["id"]
+    // const categoryId = req.body.categoryId
+
+    await products.find({categoryId:ObjectID(categoryId)}).then(result=>{
         if (result !== null){
             res.status(200).send(result)
         }else{
-            res.status(401).send()
+            res.status(401).send({message:"products not found"})
         }
     }).catch(err=>{
         res.status(500).send({message:err.message})
     })
 }
 
-const createNewDigitalProducts = async (req,res)=>{
+const createNewProducts = async (req, res)=>{
     const {name,description,rate,price,isAvailable,categoryId} = req.body
     const newDigitalProducts = {
         name:name,
@@ -31,6 +37,6 @@ const createNewDigitalProducts = async (req,res)=>{
 }
 
 module.exports = {
-    getAllDigitalProducts,
-    createNewDigitalProducts
+    getAllDigitalProducts: getProductsByCategoryId,
+    createNewDigitalProducts: createNewProducts
 }
